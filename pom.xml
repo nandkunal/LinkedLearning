@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>learning</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>LinkedLearning</name>
+  <dependencies>
+  <dependency>
+  <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>28.2-jre</version>
+  </dependency>
+  <dependency>
+    <groupId>com.rabbitmq</groupId>
+    <artifactId>amqp-client</artifactId>
+    <version>5.9.0</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.30</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.30</version>
+</dependency>
+  </dependencies>
+  <description>This Project contains code samples and practise code for courses I have completed in LinkedIn Learning.</description>
+  <groupId>org</groupId>
+</project>
